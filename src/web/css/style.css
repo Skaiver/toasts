@@ -1,0 +1,29 @@
+.toast {
+    position: absolute;
+    right: 1%;
+    border: gray 1px solid;
+    display: inline-block;
+    min-width: 240px;
+    padding: 10px;
+    background: darkgray;
+    border-radius: 8px;
+}
+
+.toast .title {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.toast .msg {
+    margin-top: 5px;
+}
+
+.toast .icon {
+    width: 24px;
+}
+
+.toast .header{
+    display: flex;
+    align-items: center;
+}
